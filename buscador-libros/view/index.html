@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Biblioteca</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <h1>
+        Biblioteca
+    </h1>
+    <!-- The form -->
+    <form class="example">
+        <input class="form-control" id="textToSearch" type="text" placeholder="Buscar libro" name="search">
+        
+    </form>
+    <button id="buscarLibro"><i class="fa fa-search"></i></button>
+    <a class="btn btn-primary" id="registraLibro" href="http://localhost:3000/registrar" role="button">Registrar Libro</a>
+
+
+
+    <table id="tabla">
+        <thead>
+
+            <tr>
+              <th>Título</th>
+              <th>Autor(es)</th>
+              <th>Editorial</th>
+              <th>Fecha</th>
+              <th>Ver más</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+      </table>
+
+
+    <script src = "app.js"></script>
+</body>
+</html>

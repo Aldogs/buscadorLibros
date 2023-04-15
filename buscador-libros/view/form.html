@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+</head>
+<body>
+    <h1>
+        Llena los datos para registrar el libro
+    </h1>
+    <form action="/libros" method="POST">
+        <div class="form-group mb-3">
+            <label>Título</label>
+            <input type="text" class="form-control" placeholder="Título" name="firstName">
+        </div>
+        <div class="form-group mb-3">
+            <label>Autor(es)</label>
+            <input type="text" class="form-control" placeholder="Autor(es)" name="lastName">
+        </div>
+        <div class="form-group mb-3">
+            <label>Editorial</label>
+            <input type="text" class="form-control" placeholder="Editorial" name="userName">
+        </div>
+        <div class="form-group mb-3">
+            <label>Fecha</label>
+            <input type="text" class="form-control" placeholder="Fecha" name="password">
+          </div>
+        <div class="d-grid mt-3">
+        <button type="submit" class="btn btn-primary form-control">Registrar</button>
+        </div>
+    </form>
+</body>
+</html>
